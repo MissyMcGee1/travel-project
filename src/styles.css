@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url("../images/island-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,12 +50,61 @@ header a {
   text-transform: uppercase;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  color: #ffffff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
+    ),
+    url("../images/rice-field-image.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+footer p {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-@media (max-with: 900px) {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+@media (max-with: 960px) {
   header {
     padding: 60px 0;
   }
