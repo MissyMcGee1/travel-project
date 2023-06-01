@@ -139,18 +139,15 @@ footer a {
   grid-template-columns: 1fr 1fr;
 }
 
-.grid-main img {
+.image-main {
   width: 100%;
-  height: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-@media (max-with: 960px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
