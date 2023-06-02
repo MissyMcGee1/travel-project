@@ -73,6 +73,22 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
 main p {
   font-weight: 400;
   font-size: 16px;
@@ -82,9 +98,9 @@ main p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 footer {
@@ -139,8 +155,42 @@ footer a {
   grid-template-columns: 1fr 1fr;
 }
 
-.image-main {
+.grid-secondary {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image-responsive {
   width: 100%;
+  display: block;
+}
+
+.secondary {
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.card {
+  text-align: left;
+  background: #ffffff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.button {
+  color: #ffffff;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background: #272044;
+  text-decoration: none;
 }
 
 .grid-footer {
