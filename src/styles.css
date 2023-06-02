@@ -210,6 +210,11 @@ footer a {
   margin-bottom: 30px;
 }
 
+.gallery img:hover {
+  transform: scale(1.2);
+  transition: all 150ms ease-in-out;
+}
+
 .grid-footer {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -241,5 +246,10 @@ footer a {
 
   .card-header img {
     aspect-ratio: 16/9;
+  }
+
+  .gallery img:hover {
+    transform: none;
+    transition: none;
   }
 }
