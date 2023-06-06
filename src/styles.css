@@ -166,7 +166,6 @@ footer a {
 
 .image-responsive {
   width: 100%;
-  height: auto;
   display: block;
   object-fit: cover;
 }
