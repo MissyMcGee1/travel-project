@@ -166,6 +166,7 @@ footer a {
 
 .image-responsive {
   width: 100%;
+  height: auto;
   display: block;
   object-fit: cover;
 }
@@ -247,6 +248,11 @@ footer a {
 
   .card-header img {
     aspect-ratio: 16/9;
+  }
+
+  .gallery img {
+    height: 350px;
+    object-fit: cover;
   }
 
   .gallery img:hover {
